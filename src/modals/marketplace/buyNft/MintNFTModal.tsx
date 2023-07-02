@@ -86,7 +86,7 @@ const MintNFTModal = ({ src, name, mint, id, lat, lng }: IProps) => {
         </div>
         <div className="grid grid-cols-2 gap-8">
           <Button onClick={createCheckout}>Mint With Card</Button>
-          <Button onClick={mint} disabled={true}>
+          <Button onClick={mint} disabled={false}>
             Mint With Crypto
           </Button>
         </div>
